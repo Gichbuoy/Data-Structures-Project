@@ -99,6 +99,9 @@ int main() {
         root = insertNode(root, arr[i]);
     }
     
+    
+    printf("BST created successfully.\n");
+    
     printf("Inorder traversal of the BST: ");
     inorderTraversal(root);
     printf("\n");
